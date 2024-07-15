@@ -15,4 +15,8 @@ class FizzbuzzTest extends AnyFunSuite {
   test("Turn a number multiple of five into Buzz") {
     assert(Fizzbuzz.generate(5) === "1, 2, Fizz, 4, Buzz")
   }
-}
+
+  test("Turn a number multiple of fifteen into FizzBuzz") {
+    assert(Fizzbuzz.generate(15) === "1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz")
+   }
+  }
