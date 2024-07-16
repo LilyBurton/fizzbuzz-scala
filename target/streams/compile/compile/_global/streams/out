@@ -1,6 +1,6 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/lil/FizzBuzz/src/main/scala/Fizzbuzz.scala:18:13: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/lil/FizzBuzz/src/main/scala/Fizzbuzz.scala:23:20: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int => Boolean[0m
 [0m[[0m[31merror[0m] [0m[0m required: Boolean[0m
-[0m[[0m[31merror[0m] [0m[0m    dividee % divider [0m
-[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m    case number if isDividableBy15 => "FizzBuzz"[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
